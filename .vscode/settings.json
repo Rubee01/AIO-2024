@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "rubee01",
+        "projectKey": "Rubee01_AIO-2024"
+    }
+}
