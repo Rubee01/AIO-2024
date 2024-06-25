@@ -11,7 +11,7 @@ class Softmax(nn.Module):
         return torch.exp(x) / torch.sum(torch.exp(x))
     
 
-class Softmax_stable(nn.Module):
+class SoftmaxStable(nn.Module):
     def __init__(self):
         super().__init__()
 
@@ -22,6 +22,6 @@ class Softmax_stable(nn.Module):
 
 if __name__ == "__main__":
     data = torch.Tensor([1, 2, 3])
-    softmax_stable = Softmax_stable()
+    softmax_stable = SoftmaxStable()
     output = softmax_stable(data)
     print(output)
